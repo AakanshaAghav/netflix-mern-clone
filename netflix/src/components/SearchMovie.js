@@ -23,7 +23,7 @@ function SearchMovie() {
     } catch (error) {
       console.log(error);
     } finally {
-      dispatch(setLoading(false)); // ⚡ fixed mistake here also!
+      dispatch(setLoading(false));
     }
     setSearchMovie("");
   }
