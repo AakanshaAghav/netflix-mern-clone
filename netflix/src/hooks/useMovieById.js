@@ -21,8 +21,8 @@ const useMovieById = (movieId) => {
                 console.log(error);
             }
         };
-        if (movieId) getMovieById(); // 🔥 Always check movieId is available
-    }, [movieId,dispatch]); // 🔥 Add movieId in dependency array
+        if (movieId) getMovieById(); //  Always check movieId is available
+    }, [movieId,dispatch]); //  Add movieId in dependency array
 }
 
 export default useMovieById;
