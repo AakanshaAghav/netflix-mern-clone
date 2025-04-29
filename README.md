@@ -45,19 +45,19 @@ cd netflix-mern-stack
 - **For the frontend (React):**
 
 ```bash
-cd client
+cd netflix
 npm install
 ```
 - **For the backend (Node.js/Express):**
 
 ```bash
-cd ../server
+cd ../backend
 npm install
 ```
 4. **Set up environment variables:**
 
-- In the `client` folder, create a `.env` file and add your Firebase credentials.
-- In the `server` folder, create a `.env` file and add your MongoDB connection string.
+- In the `netflix` folder, create a `.env` file and add your Firebase credentials.
+- In the `backend` folder, create a `.env` file and add your MongoDB connection string.
 
 
 5. **Run the frontend and backend:**
@@ -65,13 +65,13 @@ npm install
 - **Start the backend server:**
 
 ```bash
-cd server
+cd backend
 npm start
 ```
 - **Start the frontend server:**
 
 ```bash
-cd client
+cd netflix
 npm start
 ```
 6. **Open** [http://localhost:3000](http://localhost:3000) **in your browser to view the project.**
@@ -93,7 +93,13 @@ git commit -am "Add new feature"
 ```bash
 git push origin feature-branch
 ```
-- Create a new Pull Request.
+- Create a new Pull Request:
+
+  1. Go to your forked repository on GitHub.
+  2. You’ll see a "Compare & pull request" button. Click it.
+  3. Add a clear title and description of the changes you've made.
+  4. Submit the pull request.
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
