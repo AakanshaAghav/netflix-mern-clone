@@ -11,7 +11,7 @@ function VideoBackground({ movieId, bool }) {
       <div className='w-screen h-screen bg-black flex items-center justify-center'>
         <p className="text-white text-xl">Loading...</p>
       </div>
-    ); // or you can show a spinner/loading screen
+    ); 
   }
 
   return (
