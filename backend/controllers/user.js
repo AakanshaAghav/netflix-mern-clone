@@ -87,10 +87,3 @@ export const Register = async (req,res) =>{
     }
 }
 
-// http://localhost:8080/api/v1/user/register
-
-// {
-//     "fullName": "Aakansha Aghav",
-//     "email": "aakanshaaghav@gmail.com",
-//     "password": "123"
-//   }
